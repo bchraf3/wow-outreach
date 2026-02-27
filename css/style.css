@@ -288,6 +288,10 @@ section {
   width: 100%;
 }
 
+.nav-links .btn::after {
+  display: none;
+}
+
 .navbar.sticky .nav-links a {
   color: var(--gray-800);
 }
